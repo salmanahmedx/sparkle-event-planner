@@ -56,15 +56,15 @@
     .package-container h1,
     .celebrate-info h1,
     .accordion h1 {
-        font-size: 3rem;
+        font-size: 5rem;
     }
 
     .service-info p {
-        padding-left: .2rem;
+        padding-left: .3rem;
     }
 
     p {
-        font-size: 1.24rem;
+        font-size: 1.25rem;
     }
 
     .card p {
@@ -72,12 +72,12 @@
     }
 
     .services li {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
     }
 
     .accordion-item h1 button {
-        div font-size: 1.2rem;
-        margin-right: 1rem;
+        font-size: 1.25rem;
+        margin-right: 1.2rem;
     }
 }
 
@@ -120,4 +120,8 @@
 .accordion-container .accordion,
 .accordion-container .faq-image-container {
     flex-basis: 50%;
+}
+
+.service i {
+    padding-top: 0.25rem;
 }
