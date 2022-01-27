@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.celebrate .image-container img {
+    flex-basis: 45%;
+}
+
+.celebrate-info {
+    flex-basis: 55%;
+}
+
+.celebrate-info p {
+    text-align: justify;
+}
+
+.service-info p {
+    text-align: justify;
+}
+
+.service .image-container {
+    flex-basis: 50%;
+}
+
+.service-info {
+    flex-basis: 70%;
+}
+
+.fas {
+    font-size: 1rem;
+}
+
+.card {
+    height: 30.7rem;
+}
+
+.card-head {
+    height: 11.5rem;
+}
+
+.package-list {
+    height: 12rem;
+}
+
+.service-info h1,
+.package-container h1,
+.celebrate-info h1 {
+    font-size: 2.4rem;
+}
+
+@media screen and (min-width:992px) {
+
+    .service-info h1,
+    .package-container h1,
+    .celebrate-info h1,
+    .accordion h1 {
+        font-size: 3rem;
+    }
+
+    .service-info p {
+        padding-left: .2rem;
+    }
+
+    p {
+        font-size: 1.24rem;
+    }
+
+    .card p {
+        font-size: 1.1rem;
+    }
+
+    .services li {
+        font-size: 1.2rem;
+    }
+
+    .accordion-item h1 button {
+        div font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+}
+
+.button a {
+    background-color: rgba(255, 0, 0, 0.5);
+    color: white;
+}
+
+.popular-btn a {
+    background-color: rgba(255, 0, 0, 0.45);
+    color: white;
+}
+
+.accordion-body {
+    text-align: justify;
+}
+
+
+.toast {
+    transform: scale(.50);
+    top: 0;
+    right: 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .toast {
+        top: 0 px;
+        right: 0;
+
+    }
+}
+
+@media screen and (min-width: 0px) and (max-width: 768px) {
+    .toast {
+        top: -70px;
+        right: 0;
+    }
+}
