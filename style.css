@@ -116,3 +116,8 @@
         right: 0;
     }
 }
+
+.accordion-container .accordion,
+.accordion-container .faq-image-container {
+    flex-basis: 50%;
+}
