@@ -125,3 +125,18 @@
 .service i {
     padding-top: 0.25rem;
 }
+
+.photos:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.celebrate .image-container,
+.celebrate .celebrate-info {
+    flex-basis: 50%;
+}
+
+.service-container .service-info,
+.service-container .photos {
+    flex-basis: 50%;
+}
