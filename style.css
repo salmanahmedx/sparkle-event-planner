@@ -79,6 +79,7 @@
         font-size: 1.25rem;
         margin-right: 1.2rem;
     }
+
 }
 
 .button a {
@@ -139,4 +140,13 @@
 .service-container .service-info,
 .service-container .photos {
     flex-basis: 50%;
+}
+
+.fab {
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.fab:hover {
+    color: rgba(255, 92, 92, 0.7);
 }
